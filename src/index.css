@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Optional: Smooth scrolling for the whole page */
+html {
+  scroll-behavior: smooth;
+}
+ /* Add this at the bottom of index.css */
+.stroke-text {
+  -webkit-text-stroke: 1px #4b5563; /* Gray stroke */
+  color: transparent;
+}
+
+.stroke-text:hover {
+  -webkit-text-stroke: 1px #6366f1; /* Indigo stroke on hover */
+  color: transparent;
+}
