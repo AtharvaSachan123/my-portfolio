@@ -1,4 +1,4 @@
-import SkillMarquee from './SkillMarquee';
+import SkillMarquee from '../SkillMarquee';
 
 const HeroSection = () => {
   return (
